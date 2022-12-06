@@ -22,19 +22,22 @@ body {
     font-size: 20px;
     font-weight: 300;
 }
-.navbar__in{
+
+.navbar__in {
     align-items: center;
-    width: 1185px;
+    width: 100%;
     height: 57px;
     display: flex;
     font-weight: 300;
     justify-content: center;
     line-height: 2px;
+    float: right;
 }
-.input__Search{
+
+.input__Search {
     margin-top: 13px;
     margin-left: 160px;
-    margin-right:  65px;
+    margin-right: 20px;
     border-radius: 5px;
     border: 1px solid red;
     width: 205px;
@@ -46,13 +49,16 @@ body {
     line-height: 22.4px;
     padding: 9px 9px 9px 10px;
 }
-.input__Search input{
- border: none;
+
+.input__Search input {
+    border: none;
 }
-.img__logo{
+
+.img__logo {
     margin-top: 10px;
 }
-.top__contact{
+
+.top__contact {
     background-color: #ffffff;
     margin-left: 114px;
     color: red;
@@ -60,13 +66,41 @@ body {
     height: 24px;
     font-weight: 300;
     position: fixed;
-    overflow: hidden; 
+    overflow: hidden;
 }
-.top__contact span{
+
+.top__contact span {
     line-height: -15px;
     display: flex;
     float: right;
 }
-.menu a{
+
+.menu a {
     margin-top: 15px;
+}
+.template_Container{
+    margin-top: -14px;
+    position: absolute;
+    margin-left: 419px;
+}
+.templete{
+    border-bottom: 1px solid #333333;
+    background: #ffffff;
+    z-index: 10;
+    overflow: hidden;
+    display: flex;
+    height: 32px;
+}
+.templete img {
+    width: 30px;
+    height: 30px;
+}
+.templete h3{
+font-size: 10px;
+vertical-align: baseline;
+}
+.templete p{
+    vertical-align: baseline;
+    margin-top: 19px;
+    margin-left: 10px;
 }

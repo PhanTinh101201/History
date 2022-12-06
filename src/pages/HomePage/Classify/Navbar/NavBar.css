@@ -20,3 +20,6 @@
 .Navbar a:hover{
     border: 1px solid red;
 }
+.Navbar a:focus{
+    border: 1px solid red;
+}
